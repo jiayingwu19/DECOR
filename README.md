@@ -2,7 +2,7 @@
 
 This repo contains the data and code for the following paper: 
 
-Jiaying Wu, Bryan Hooi. DECOR: Degree-Corrected Social Graph Refinement for Fake News Detection, ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD) 2023. 
+Jiaying Wu, Bryan Hooi. DECOR: Degree-Corrected Social Graph Refinement for Fake News Detection, ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD) 2023. [![arXiv](https://img.shields.io/badge/arXiv-2307.00077-b31b1b.svg)](https://arxiv.org/abs/2307.00077)
 
 ## Abstract
 
