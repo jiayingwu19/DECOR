@@ -35,7 +35,6 @@ class GraphConvDecor(torch.nn.Module):
         self.lin_root1 = nn.Linear(in_dim, hid_dim, bias=False)
         self.lin_rel2 = nn.Linear(hid_dim, n_classes)
         self.lin_root2 = nn.Linear(hid_dim, n_classes, bias=False)
-        self.relu = nn.LeakyReLU()
         self.dropout = nn.Dropout()
         self.resid_weight = torch.nn.Parameter(torch.Tensor([0.]))
 

@@ -33,7 +33,6 @@ class GCNDecor(torch.nn.Module):
         self.softmax = nn.Softmax(dim = -1)
         self.weight1 = nn.Linear(in_dim, hid_dim, bias=False)
         self.weight2 = nn.Linear(hid_dim, n_classes, bias=False)
-        self.relu = nn.ReLU()
         self.dropout = nn.Dropout()
 
 

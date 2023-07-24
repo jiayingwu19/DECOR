@@ -35,7 +35,6 @@ class GINDecor(torch.nn.Module):
         self.resid_weight = torch.nn.Parameter(torch.Tensor([0.]))
         self.nn1 = MLP([in_dim, hid_dim])
         self.nn2 = MLP([hid_dim, n_classes])
-        self.relu = nn.ReLU()
         self.dropout = nn.Dropout()
 
 
