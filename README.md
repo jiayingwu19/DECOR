@@ -83,5 +83,12 @@ jiayingwu [at] u.nus.edu
 If you find this repo or our work useful for your research, please consider citing our paper
 
 ```
-TBD
+@inproceedings{wu2023decor,
+  author = {Wu, Jiaying and Hooi, Bryan},
+  title = {DECOR: Degree-Corrected Social Graph Refinement for Fake News Detection},
+  year = {2023},
+  booktitle = {Proceedings of the 29th ACM SIGKDD Conference on Knowledge Discovery and Data Mining},
+  pages = {2582–2593}
+}
+
 ```
